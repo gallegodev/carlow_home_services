@@ -1,1 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    color: #000;
+}
+
+#head {
+    overflow: hidden;
+    background-image: url(../images/background07.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+}
+
+#logo {
+    font-size: 300%;
+    margin-left: 30px;
+    float: left;
+    color: #000;
+}
+
+#logo:hover {
+    color: rgba(243, 184, 23, 0.8);
+}
+
+#menu {
+    font-size: 170%;
+}
+
+#menu>li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:  #000;
+}
+
+#menu a:hover {
+    color: rgba(243, 184, 23, 0.8);
+}
+
+.active {
+    border-bottom: 1px solid  #000;
+}
+
+/* menu navigation */
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+
+/* Frame Image*/
+
+#shop-photo-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#shop-photo {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/background08.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 220%;
+    font-family: "Caveat", sans-serif;
+    width: 320px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#cover-text h2 {
+    color: #fcba03;
+}
+
+/*coffeehouse ethos*/
+
+#coffeeshop-ethos{
+    height: 650px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#left-about a {
+    font-family: "Dancing Script", sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#right-about a {
+    font-family: "Dancing Script", sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+}
+
+.left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 350%;
+}
+
+#image-container {
+    height: 430px;
+    width: 640px;
+}
+
+#image-bg {
+    background: url(../images/coffeeshop4.jpg);
+    height: 100%;
+}
