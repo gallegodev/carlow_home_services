@@ -171,6 +171,38 @@ body {
 #image-bg {
     background: url(../images/service03.jpg);
     height: 100%;
-    background-repeat: no-repeat;
+    background-repeat: ;
     border-radius: 50%;
 }
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background-image: url(../images/background07.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social {
+    text-align: center;
+}
+
+.social>li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social i {
+    color: #000;
+    font-size: 200%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.social i:hover {
+    color: rgba(243, 184, 23, 0.8);
+}
+
